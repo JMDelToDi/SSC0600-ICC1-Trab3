@@ -3,6 +3,20 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+typedef struct elemento{
+	float valor;
+	int col;
+	struct elemento *next;
+} E;
+
+typedef E *p;
+
+typedef struct{
+	p *Lista_ligada;
+	int l;
+	int c;
+} Matriz_Esparsa;
+
 int main(){
 	
 	int m = 0, o = 0;
