@@ -2,19 +2,15 @@ Trabalho 3  - Matriz Esparsa
 
 João Marcos Della Torre Divino  - NºUSP 10377708
 
-     Este trabalho consistiu em implementar, utilizando
-linguagem C, um programa que permite jogar "Quarto".
-O programa apresenta uma interface interativa, com
-um Menu principal, instruções do jogo, opção para
-decidir qual jogador inicia a partida, visão do tabuleiro,
-indicação de vitória/empate e possibilidade de jogar
-novamente. 
-     As entradas são números inteiros para o controle
-do menu e da seleção do jogador. No jogo propria-
-mente, são números hexadecimais entre 0 e F,
-tanto para os valores quanto para as casas
-do tabuleiro. Os valores são convertidos para binário,
-afim de fazer a comparação bit a bit e fornecer o 
-resultado da partida.
-     O programa apresenta limitações quanto à entradas
-diferentes das exigidas, o que ocasiona bugs.
+Este trabalho consistiu em implementar, utilizando 
+linguagem C, um programa que implemente operações
+básicas em uma matriz esparsa.
+     O programa apresenta uma interface interativa, com
+um Menu incial, com as opções de inicializar a matriz 
+ou sair do programa, e um menu secundário, com as
+ações a serem realizadas sobre a matriz, as quais 
+podem ser realizadas mais de uma vez.
+     As entradas de todos os menus são números
+inteiros, o que ocasiona bugs caso o usuário insira 
+qualquer outro tipo de variável, como, por exemplo,
+um char.
